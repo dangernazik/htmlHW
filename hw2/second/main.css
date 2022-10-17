@@ -1,0 +1,42 @@
+.father{
+    display: flex;
+    height: 50vw;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 20px;
+}
+.child{
+    height: 400px;
+    width: 320px;
+    border: solid 1px black;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.text{
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 10px 10px 10px;
+    text-align: center;
+    line-height: 25px;
+    color: grey;
+    font-size: 15px;
+    font-family: "Comic Sans MS", serif;
+
+}
+.textButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    height: 50px;
+    width: 200px;
+    border: solid 1px black;
+}
+.button-text{
+    display: flex;
+    justify-content: center;
+}
