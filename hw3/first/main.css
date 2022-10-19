@@ -1,0 +1,112 @@
+.father{
+    display: flex;
+    height: 50vw;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 20px;
+}
+.child{
+    height: 500px;
+    width: 320px;
+    border: solid 1px black;
+}
+
+.containerRound{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.round{
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    bottom: 40px;
+    background: white;
+    display: flex;
+    box-sizing: border-box;
+}
+.icon{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: "Bebas Neue Bold", serif;
+}
+.text{
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 10px 10px 10px;
+    text-align: center;
+    line-height: 25px;
+    color: grey;
+    font-size: 17px;
+    font-family: "Bebas Neue Bold", serif;
+
+}
+.textButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.button{
+    height: 50px;
+    width: 200px;
+    border: solid 1px black;
+}
+.button-text{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.borderColorOne {
+    border: 2px solid coral;
+    /*background: linear-gradient(140deg, rgba(205,97,0,1) 42%, rgba(0,0,0,1) 100%);*/
+}
+.textColorOne{
+    color: coral;
+}
+.iconColorOne{
+    color: coral;
+}
+.borderColorTwo{
+    border: 2px solid cornflowerblue;
+}
+.textColorTwo{
+    color: cornflowerblue;
+}
+.iconColorTwo{
+    color: cornflowerblue;
+}
+.borderColorThree{
+    border: 2px solid black;
+}
+.textColorThree{
+    color: black;
+}
+.iconColorThree{
+    color: yellow;
+    background: black;
+}
+.borderBgOne{
+    background: linear-gradient(140deg, rgba(205,97,0,1) 64%, rgba(0,0,0,1) 100%);
+    border-bottom: solid coral 1px;
+}
+.borderBgTwo{
+    background: linear-gradient(140deg, rgba(0,125,205,1) 64%, rgba(0,0,0,1) 100%);
+    border-bottom: solid cornflowerblue 1px;
+}
+.borderBgThree{
+    background: linear-gradient(140deg, rgb(255, 255, 0) 64%, rgba(0,0,0,1) 100%);
+    border-bottom: solid black 1px;
+}
